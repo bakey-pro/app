@@ -23,7 +23,7 @@ export default async function WelcomePage() {
                 <div className="flex flex-1 items-center justify-center">
                     <div className="w-full max-w-xl mx-auto">
                         <div className="flex flex-col justify-center items-center gap-3 w-full max-w-sm mx-auto h-[85vh]">
-                            <h1 className="text-neutral-950 dark:text-neutral-50 bg-clip-text font-bold text-4xl lg:text-5xl">Welcome 👋</h1>
+                            <h1 className="text-neutral-950 dark:text-neutral-50 bg-clip-text font-bold text-4xl lg:text-5xl">Welcome</h1>
                             <p className="text-neutral-600 dark:text-neutral-400 text-sm lg:text-base text-center mb-7.5">{t('description')}</p>
 
                             <div className="flex border border-neutral-200 dark:border-neutral-800 rounded-lg bg-neutral-100 dark:bg-neutral-900 px-5 py-3.5 mb-8 items-center justify-items-center justify-between">
@@ -31,7 +31,7 @@ export default async function WelcomePage() {
                                     <span className="text-neutral-600 dark:text-neutral-500 text-lg">bakey.pro</span>
                                     <input className="bg-transparent w-full border-none outline-none text-neutral-950 dark:text-neutral-50 text-lg ml-1.5" type="text" pattern="^[A-Za-z0-9_-]+$" />
                                 </div>
-                                <button className={`flex items-center justify-center cursor-grab min-w-9 min-h-9 border outline-none rounded-lg ml-2 text-center`}>
+                                <button className={`flex items-center justify-center cursor-pointer min-w-9 min-h-9 border outline-none rounded-lg ml-2 text-center`}>
                                     <ChevronRight size="20" className={`transition-colors duration-300 text-neutral-950 dark:text-neutral-50`} />
                                 </button>
                             </div>
