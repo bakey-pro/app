@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export const metadata = {
-    title: 'Error',
+    title: 'Callback Error',
     description: 'Sorry, an error occurred during the authentication process. Please try again or contact support if the problem persists.',
 }
 
